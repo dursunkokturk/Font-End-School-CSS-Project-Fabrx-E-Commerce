@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-and-menus {
+  width: 1440px;
+  height: 80px;
+  background-color: #FFC9BA;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .fabrx-logo {
+  width: 92px;
+  height: 32px;
+}
+
+section {
+  background-color: #FFC9BA;
+}
+
+.top-section-left {
+  display: flex;
+  justify-content: center;
+}
+
+.top-section-left .write-and-redirect {
+  background-color: #FFC9BA;
+}
+
+.top-section-left .write-and-redirect h1 {
+  width: 373px;
+  height: 96px;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.top-section-left .write-and-redirect .write {
+  width: 373px;
+  height: 56px;
+}
+
+.top-section-left .write-and-redirect .redirect {
+  width: 373px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 32px;
+  padding-bottom: 257px;
+}
+
+.top-section-left .redirect {
+  /* padding-top: 30px;
+  padding-left: 24px;
+  padding-bottom: 136px; */
+}
+
+.top-section-left img {
+  padding-top: 30px;
+  padding-left: 24px;
+  padding-bottom: 136px;
+}
