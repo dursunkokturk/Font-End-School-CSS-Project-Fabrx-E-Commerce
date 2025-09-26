@@ -33,33 +33,44 @@ section {
 
 .top-section-left .write-and-redirect h1 {
   width: 373px;
-  height: 96px;
+  /* height: 170px; */
   font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 600;
   line-height: 48px;
+  letter-spacing: -0.4px;
   margin-bottom: 16px;
 }
 
 .top-section-left .write-and-redirect .write {
   width: 373px;
   height: 56px;
+  font-family: Open Sans;
+  padding-bottom: 32px;
+}
+
+.top-section-left .redirect-write-and-icon {
+  display: flex;
+  align-items: center;
 }
 
 .top-section-left .write-and-redirect .redirect {
-  width: 373px;
-  height: 56px;
+  width: 194px;
+  height: 32px;
+  font-family: Montserrat;
   font-size: 18px;
   line-height: 32px;
   padding-bottom: 257px;
 }
 
-.top-section-left .redirect {
-  /* padding-top: 30px;
-  padding-left: 24px;
-  padding-bottom: 136px; */
-}
-
-.top-section-left img {
+/* .top-section-left .redirect {
   padding-top: 30px;
   padding-left: 24px;
   padding-bottom: 136px;
-}
+} */
+
+/* .top-section-left a {
+  padding-top: 30px;
+  padding-left: 24px;
+  padding-bottom: 136px;
+} */
