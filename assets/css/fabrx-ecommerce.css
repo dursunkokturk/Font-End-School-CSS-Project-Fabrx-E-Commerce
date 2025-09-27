@@ -205,3 +205,90 @@ header .logo-and-menus .menus {
   font-family: Open Sans;
   font-weight: 600;
 }
+
+.single-sofa {
+  width: 1440px;
+  height: 592px;
+  padding-left: 165px;
+}
+
+.single-sofa .write-and-redirect {
+  padding-top: 80px;
+  float: left;
+}
+
+.single-sofa .write-and-redirect .write h1 {
+  width: 373px;
+  height: 180px;
+  font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+  margin-bottom: 16px;
+}
+
+.single-sofa .write-and-redirect .write p {
+  padding-top: 10px;
+  width: 373px;
+  height: 56px;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.single-sofa .write-and-redirect .redirect {
+  color: inherit;
+  padding-top: 40px;
+}
+
+.single-sofa .write-and-redirect .redirect a {
+  color: inherit;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+
+.single-sofa .write-and-redirect .redirect img {
+  padding-left: 5px;
+}
+
+.single-sofa img {
+  padding-left: 24px;
+  padding-top: 110px;
+}
+
+.chairs-and-flowers {
+  width: 1110;
+  height: 917px;
+  padding-left: 165px;
+}
+
+.chairs-and-flowers .general-title {
+  padding-bottom: 41px;
+}
+
+.chairs-and-flowers .general-title h1 {
+  font-size: 20px;
+  font-family: Montserrat;
+}
+
+.chairs-and-flowers .chairs-and-flowers-alignment{
+  display: flex;
+  position: relative;
+}
+
+.chairs-and-flowers .chair-white h1 {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 30px;
+  width: 151px;
+  height: 60px;
+  padding-left: 24px;
+  position: absolute;
+  z-index: 1;
+  padding-top: 266px;
+}
+
+.chairs-and-flowers .chair-white img {
+  position: absolute;
+}
