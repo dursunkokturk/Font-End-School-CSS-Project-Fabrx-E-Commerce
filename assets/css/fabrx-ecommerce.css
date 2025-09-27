@@ -101,3 +101,107 @@ header .logo-and-menus .menus {
 .presentation-and-logos .logos img {
   padding-right: 94px;
 }
+
+.sofa-and-lamb {
+  width: 1440px;
+  height: 878px;
+  padding-left: 165px;
+}
+
+.sofa-and-lamb .seat {
+  float: left;
+}
+
+.sofa-and-lamb .seat h1 {
+  padding-left: 40px;
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.sofa-and-lamb .lamb h1 {
+  padding-left: 40px;
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.seats-and-lamb {
+  padding-left: 165px;
+}
+
+.seats-and-lamb .general-title {
+  width: 1110;
+  height: 47px;
+}
+
+.seats-and-lamb .general-title h1 {
+  font-size: 20px;
+  font-family: Montserrat;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.seats-and-lamb .products img {
+  padding-right: 80px;
+}
+
+.seats-and-lamb .products .seat-yellow .product-name {
+  font-size: 12px;
+  line-height: 21px;
+  font-family: Open Sans;
+}
+
+.seats-and-lamb .products .seat-yellow .product-model {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Open Sans;
+}
+
+.seats-and-lamb .products .seat-yellow .product-price {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.seats-and-lamb .products .lamb-white .product-name {
+  font-size: 12px;
+  line-height: 21px;
+  font-family: Open Sans;
+}
+
+.seats-and-lamb .products .lamb-white .product-model {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Open Sans;
+}
+
+.seats-and-lamb .products .lamb-white .product-price {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
+
+.seats-and-lamb .products .seat-orange .product-name {
+  font-size: 12px;
+  line-height: 21px;
+  font-family: Open Sans;
+}
+
+.seats-and-lamb .products .seat-orange .product-model {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Open Sans;
+}
+
+.seats-and-lamb .products .seat-orange .product-price {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Open Sans;
+  font-weight: 600;
+}
