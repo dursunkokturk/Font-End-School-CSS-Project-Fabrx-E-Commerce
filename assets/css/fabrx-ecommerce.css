@@ -78,3 +78,26 @@ header .logo-and-menus .menus {
   padding-left: 24px;
   padding-top: 110px;
 }
+
+.presentation-and-logos {
+  width: 1440px;
+  height: 191px;
+}
+
+.presentation-and-logos p {
+  padding-top: 56px;
+  padding-left: 165px;
+  font-size: 14px;
+  font-family: Open Sans;
+  line-height: 24px;
+  font-weight: 400;
+  color: #807E7E;
+}
+
+.presentation-and-logos .logos {
+  padding-left: 165px;
+}
+
+.presentation-and-logos .logos img {
+  padding-right: 94px;
+}
