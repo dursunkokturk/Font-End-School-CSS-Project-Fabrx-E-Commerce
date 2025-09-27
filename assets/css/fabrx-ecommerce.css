@@ -4,36 +4,44 @@
   box-sizing: border-box;
 }
 
-.logo-and-menus {
+header .logo-and-menus {
   width: 1440px;
   height: 80px;
   background-color: #FFC9BA;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+}
+
+header .logo-and-menus .menus img {
+  padding-right: 32px;
 }
 
 header .fabrx-logo {
   width: 92px;
   height: 32px;
+  float: left;
+  margin-top: 24px;
+  margin-left: 165px;
 }
 
-section {
+header .logo-and-menus .menus {
+  padding-top: 24px;
+  padding-left: 1115px;
+}
+
+.section-hero {
   background-color: #FFC9BA;
+  width: 1440px;
+  height: 592px;
+  padding-left: 165px;
 }
 
-.top-section-left {
-  display: flex;
-  justify-content: center;
+.section-hero .write-and-redirect {
+  padding-top: 80px;
+  float: left;
 }
 
-.top-section-left .write-and-redirect {
-  background-color: #FFC9BA;
-}
-
-.top-section-left .write-and-redirect h1 {
+.section-hero .write-and-redirect .write h1 {
   width: 373px;
-  /* height: 170px; */
+  height: 180px;
   font-size: 40px;
   font-family: Montserrat;
   font-weight: 600;
@@ -42,35 +50,31 @@ section {
   margin-bottom: 16px;
 }
 
-.top-section-left .write-and-redirect .write {
+.section-hero .write-and-redirect .write p {
+  padding-top: 10px;
   width: 373px;
   height: 56px;
   font-family: Open Sans;
-  padding-bottom: 32px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
-.top-section-left .redirect-write-and-icon {
-  display: flex;
-  align-items: center;
+.section-hero .write-and-redirect .redirect {
+  color: inherit;
+  padding-top: 40px;
 }
 
-.top-section-left .write-and-redirect .redirect {
-  width: 194px;
-  height: 32px;
+.section-hero .write-and-redirect .redirect a {
+  color: inherit;
   font-family: Montserrat;
-  font-size: 18px;
-  line-height: 32px;
-  padding-bottom: 257px;
+  text-decoration: none;
 }
 
-/* .top-section-left .redirect {
-  padding-top: 30px;
-  padding-left: 24px;
-  padding-bottom: 136px;
-} */
+.section-hero .write-and-redirect .redirect img {
+  padding-left: 5px;
+}
 
-/* .top-section-left a {
-  padding-top: 30px;
+.section-hero img {
   padding-left: 24px;
-  padding-bottom: 136px;
-} */
+  padding-top: 110px;
+}
