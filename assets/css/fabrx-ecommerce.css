@@ -258,9 +258,10 @@ header .logo-and-menus .menus {
 }
 
 .chairs-and-flowers {
-  width: 1110;
-  height: 917px;
+  width: 1440px;
+  height: 1029px;
   padding-left: 165px;
+  border: 1px solid black;
 }
 
 .chairs-and-flowers .general-title {
@@ -272,12 +273,25 @@ header .logo-and-menus .menus {
   font-family: Montserrat;
 }
 
-.chairs-and-flowers .chairs-and-flowers-alignment{
+.chairs-and-flowers .products {
+  width: 1110px;
+  height: 917px;
+  border: 1px solid black;
+  display: flex;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment{
   display: flex;
   position: relative;
 }
 
-.chairs-and-flowers .chair-white h1 {
+.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-white {
+  padding-right: 24px;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-white h1 {
   font-family: Montserrat;
   font-size: 20px;
   line-height: 30px;
@@ -289,6 +303,86 @@ header .logo-and-menus .menus {
   padding-top: 266px;
 }
 
-.chairs-and-flowers .chair-white img {
+.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-white img {
+  width: 543px;
+  height: 411px;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-black {
+  padding-right: 24px;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-black h1 {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 30px;
+  width: 151px;
+  height: 60px;
+  padding-left: 24px;
+  position: absolute;
+  z-index: 1;
+  padding-top: 266px;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-black img {
+  width: 543px;
+  height: 411px;
+  position: absolute;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-white {
+  padding-right: 24px;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-white h1 {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 30px;
+  width: 151px;
+  height: 60px;
+  padding-left: 24px;
+  position: absolute;
+  z-index: 1;
+  padding-top: 266px;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-white img {
+  width: 447px;
+  height: 411px;
+  position: absolute;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-green {
+  padding-right: 24px;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-green h1 {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 30px;
+  width: 151px;
+  height: 60px;
+  padding-left: 24px;
+  position: absolute;
+  z-index: 1;
+  padding-top: 266px;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-green img {
+  width: 639px;
+  height: 411px;
   position: absolute;
 }
