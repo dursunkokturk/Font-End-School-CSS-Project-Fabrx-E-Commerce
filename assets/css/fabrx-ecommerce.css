@@ -355,3 +355,47 @@ header .logo-and-menus .menus {
   font-size: 16px;
   line-height: 28px;
 }
+
+.links {
+  padding-left: 165px;
+  padding-top: 72px;
+}
+
+.links .parts {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.links .parts .logo-and-write {
+  padding-right: 118px;
+}
+
+.links .parts .logo-and-write img{
+  padding-bottom: 24px;
+}
+
+.links .parts .logo-and-write p {
+  width: 496px;
+  height: 72px;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.links .parts .links-group {
+  width: 150px;
+  height: 152px;
+  padding-right: 24px;
+}
+
+.links .parts .links-group h3{
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.links .parts .links-group p{
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 24px;
+}
