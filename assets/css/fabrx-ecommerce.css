@@ -317,6 +317,8 @@ header .logo-and-menus .menus {
 .seats-bookself-chair .general-title {
   width: 1110px;
   height: 47px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .seats-bookself-chair .general-title h1 {
@@ -325,9 +327,20 @@ header .logo-and-menus .menus {
   line-height: 30px;
 }
 
+.seats-bookself-chair .general-title p {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 .seats-bookself-chair .product-photos {
   display: flex;
   flex-direction: row;
+}
+
+.seats-bookself-chair .product-photos img {
+  border-radius: 6px;
+  padding-right: 24px;
 }
 
 .seats-bookself-chair .product-photos p {
