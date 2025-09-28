@@ -276,10 +276,11 @@ header .logo-and-menus .menus {
 .chairs-and-flowers .products {
   width: 1110px;
   height: 917px;
-  border: 1px solid black;
   display: flex;
-  /* justify-content: flex-start; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  justify-content: space-around;
+  border: 1px solid black;
 }
 
 .chairs-and-flowers .products .chairs-and-flowers-alignment{
@@ -291,7 +292,7 @@ header .logo-and-menus .menus {
   padding-right: 24px;
 }
 
-.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-white h1 {
+.chairs-and-flowers .chairs-and-flowers-alignment .chair-white h1 {
   font-family: Montserrat;
   font-size: 20px;
   line-height: 30px;
@@ -304,85 +305,40 @@ header .logo-and-menus .menus {
 }
 
 .chairs-and-flowers .products .chairs-and-flowers-alignment .chair-white img {
-  width: 543px;
-  height: 411px;
   position: absolute;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-black {
   padding-right: 24px;
+  padding-bottom: 24px;
 }
 
-.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-black h1 {
+.seats-bookself-chair {
+  padding-left: 165px;
+}
+
+.seats-bookself-chair .general-title {
+  width: 1110px;
+  height: 47px;
+}
+
+.seats-bookself-chair .general-title h1 {
   font-family: Montserrat;
   font-size: 20px;
   line-height: 30px;
-  width: 151px;
-  height: 60px;
-  padding-left: 24px;
-  position: absolute;
-  z-index: 1;
-  padding-top: 266px;
 }
 
-.chairs-and-flowers .products .chairs-and-flowers-alignment .chair-black img {
-  width: 543px;
-  height: 411px;
-  position: absolute;
+.seats-bookself-chair .product-photos {
+  display: flex;
+  flex-direction: row;
 }
 
-.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-white {
-  padding-right: 24px;
+.seats-bookself-chair .product-photos p {
+  font-family: Open Sans;
+  font-size: 12px;
+  line-height: 21px;
+  color: #807E7E;
 }
 
-.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-white h1 {
-  font-family: Montserrat;
-  font-size: 20px;
-  line-height: 30px;
-  width: 151px;
-  height: 60px;
-  padding-left: 24px;
-  position: absolute;
-  z-index: 1;
-  padding-top: 266px;
-}
-
-.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-white img {
-  width: 447px;
-  height: 411px;
-  position: absolute;
-}
-
-.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-green {
-  padding-right: 24px;
-}
-
-.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-green h1 {
-  font-family: Montserrat;
-  font-size: 20px;
-  line-height: 30px;
-  width: 151px;
-  height: 60px;
-  padding-left: 24px;
-  position: absolute;
-  z-index: 1;
-  padding-top: 266px;
-}
-
-.chairs-and-flowers .products .chairs-and-flowers-alignment .flower-green img {
-  width: 639px;
-  height: 411px;
-  position: absolute;
+.seats-bookself-chair .product-photos h1 {
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 28px;
 }
