@@ -276,7 +276,7 @@ header .logo-and-menus .menus {
   width: 1110px;
   height: 917px;
   margin-left: 165px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .chairs-and-flowers .general-title {
