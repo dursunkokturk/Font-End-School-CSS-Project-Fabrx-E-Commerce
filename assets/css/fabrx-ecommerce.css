@@ -290,24 +290,15 @@ header .logo-and-menus .menus {
 
 .chairs-and-flowers .products {
   display: block;
-  /* width: 1110px;
-  height: 917px; */
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* flex-direction: row; */
-  /* justify-content: space-around; */
-  /* border: 1px solid black; */
 }
 
 .chairs-and-flowers .products .group-1 {
   display: flex;
-  /* flex-direction: row; */
   margin-bottom: 435px;
 }
 
 .chairs-and-flowers .products .group-2 {
   display: flex;
-  /* flex-direction: row; */
 }
 
 .chairs-and-flowers .products .chairs-and-flowers-alignment{
@@ -344,11 +335,6 @@ header .logo-and-menus .menus {
   padding-bottom: 24px;
 }
 
-
-
-
-
-
 .chairs-and-flowers .chairs-and-flowers-alignment .flowers h1 {
   font-family: Montserrat;
   font-size: 20px;
@@ -366,11 +352,6 @@ header .logo-and-menus .menus {
   padding-right: 24px;
   padding-bottom: 24px;
 }
-
-
-
-
-
 /* Chairs and Flowers Alani Baslangici */
 
 /* Koltuklar Kitaplik ve Sandalye Alani Baslangici */
