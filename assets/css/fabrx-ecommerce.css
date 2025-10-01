@@ -1,9 +1,11 @@
+/* Tum Bosluklar Sifirlaniyor */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Header Alani Baslangici */
 header .logo-and-menus {
   width: 1440px;
   height: 80px;
@@ -26,7 +28,9 @@ header .logo-and-menus .menus {
   padding-top: 24px;
   padding-left: 1115px;
 }
+/* Header Alani Sonu */
 
+/* Hero Alani Baslangici */
 .section-hero {
   background-color: #FFC9BA;
   width: 1440px;
@@ -78,12 +82,15 @@ header .logo-and-menus .menus {
   padding-left: 24px;
   padding-top: 110px;
 }
+/* Hero Alani Sonu */
+
 
 .presentation-and-logos {
   width: 1440px;
   height: 191px;
 }
 
+/* Marka Logolarinin Baslangici */
 .presentation-and-logos p {
   padding-top: 56px;
   padding-left: 165px;
@@ -101,7 +108,9 @@ header .logo-and-menus .menus {
 .presentation-and-logos .logos img {
   padding-right: 94px;
 }
+/* Marka Logolarinin Sonu */
 
+/* Lamba ve Koltuk Alani Baslangici */
 .sofa-and-lamb {
   width: 1440px;
   height: 878px;
@@ -125,7 +134,9 @@ header .logo-and-menus .menus {
   font-size: 20px;
   line-height: 30px;
 }
+/* Lamba ve Koltuk Alani Sonu */
 
+/* Koltuklar ve Lamba Alani Baslangici */
 .seats-and-lamb {
   padding-left: 165px;
 }
@@ -205,7 +216,9 @@ header .logo-and-menus .menus {
   font-family: Open Sans;
   font-weight: 600;
 }
+/* Koltuklar ve Lamba Alani Sonu */
 
+/* Tekli Koltuk Alani Baslangici */
 .single-sofa {
   width: 1440px;
   height: 592px;
@@ -256,11 +269,13 @@ header .logo-and-menus .menus {
   padding-left: 24px;
   padding-top: 110px;
 }
+/* Tekli Koltuk Alani Sonu */
 
+/* Chairs and Flowers Alani Baslangici */
 .chairs-and-flowers {
-  width: 1440px;
-  height: 1029px;
-  padding-left: 165px;
+  width: 1110px;
+  height: 917px;
+  margin-left: 165px;
   border: 1px solid black;
 }
 
@@ -274,13 +289,24 @@ header .logo-and-menus .menus {
 }
 
 .chairs-and-flowers .products {
-  width: 1110px;
-  height: 917px;
-  display: flex;
+  display: block;
+  /* width: 1110px;
+  height: 917px; */
+  /* display: flex; */
   /* flex-wrap: wrap; */
   /* flex-direction: row; */
-  justify-content: space-around;
-  border: 1px solid black;
+  /* justify-content: space-around; */
+  /* border: 1px solid black; */
+}
+
+.chairs-and-flowers .products .group-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.chairs-and-flowers .products .group-2 {
+  display: flex;
+  flex-direction: column;
 }
 
 .chairs-and-flowers .products .chairs-and-flowers-alignment{
@@ -309,7 +335,9 @@ header .logo-and-menus .menus {
   padding-right: 24px;
   padding-bottom: 24px;
 }
+/* Chairs and Flowers Alani Baslangici */
 
+/* Koltuklar Kitaplik ve Sandalye Alani Baslangici */
 .seats-bookself-chair {
   padding-left: 165px;
 }
@@ -355,7 +383,9 @@ header .logo-and-menus .menus {
   font-size: 16px;
   line-height: 28px;
 }
+/* Koltuklar Kitaplik ve Sandalye Alani Sonu */
 
+/* Footer Alani Baslangici */
 .links {
   padding-left: 165px;
   padding-top: 72px;
@@ -399,3 +429,4 @@ header .logo-and-menus .menus {
   font-size: 14px;
   line-height: 24px;
 }
+/* Footer Alani Sonu */
