@@ -321,6 +321,11 @@ header .logo-and-menus .menus {
   margin-right: 505px;
 }
 
+.chairs-and-flowers .products .chairs-and-flowers-alignment .flowers {
+  padding-right: 24px;
+  margin-right: 410px;
+}
+
 .chairs-and-flowers .chairs-and-flowers-alignment .chair-white h1 {
   font-family: Montserrat;
   font-size: 20px;
@@ -338,6 +343,34 @@ header .logo-and-menus .menus {
   padding-right: 24px;
   padding-bottom: 24px;
 }
+
+
+
+
+
+
+.chairs-and-flowers .chairs-and-flowers-alignment .flowers h1 {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 30px;
+  width: 151px;
+  height: 60px;
+  padding-left: 24px;
+  position: absolute;
+  z-index: 1;
+  padding-top: 266px;
+}
+
+.chairs-and-flowers .products .chairs-and-flowers-alignment .flowers img {
+  position: absolute;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+
+
+
+
 /* Chairs and Flowers Alani Baslangici */
 
 /* Koltuklar Kitaplik ve Sandalye Alani Baslangici */
