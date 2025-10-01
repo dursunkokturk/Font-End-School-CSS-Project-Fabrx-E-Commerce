@@ -301,21 +301,24 @@ header .logo-and-menus .menus {
 
 .chairs-and-flowers .products .group-1 {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: row; */
+  margin-bottom: 435px;
 }
 
 .chairs-and-flowers .products .group-2 {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: row; */
 }
 
 .chairs-and-flowers .products .chairs-and-flowers-alignment{
   display: flex;
   position: relative;
+  padding-right: 24px;
 }
 
 .chairs-and-flowers .products .chairs-and-flowers-alignment .chair-white {
   padding-right: 24px;
+  margin-right: 505px;
 }
 
 .chairs-and-flowers .chairs-and-flowers-alignment .chair-white h1 {
